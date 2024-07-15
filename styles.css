@@ -47,7 +47,13 @@ body {
     position: absolute;
     left: 1%;
     height: 30%;
+    width: 8%;
     bottom: calc(var(--bottom)*1%);
+}
+
+.dino.ducking {
+    height: 22%;
+    width: 8%;
 }
 
 .cactus {
