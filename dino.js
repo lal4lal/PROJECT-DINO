@@ -90,7 +90,6 @@ function onDuck(e) {
     isDucking = true
     dinoElem.src = "./img/dino-duck0.png"
     dinoElem.classList.add("ducking")
-    setCustomProperty(dinoElem, "--bottom", 0)
 }
 
 function onStandUp(e) {
@@ -99,5 +98,4 @@ function onStandUp(e) {
     isDucking = false
     dinoElem.src = "./img/dino-stationary.png"
     dinoElem.classList.remove("ducking")
-    setCustomProperty(dinoElem, "--bottom", 0)
 }
