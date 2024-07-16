@@ -49,10 +49,11 @@ body {
     height: 30%;
     width: 8%;
     bottom: calc(var(--bottom)*1%);
+    outline: 1px solid blue;
 }
 
 .dino.ducking {
-    height: 22%;
+    height: 20%;
     width: 10%;
 }
 
@@ -61,4 +62,6 @@ body {
     left: calc(var(--left)*1%);;
     height: 30%;
     bottom: 0;
-}
+    width: auto;
+    outline: 1px solid red;
+}  
